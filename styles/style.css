@@ -47,7 +47,7 @@ ol {
   block-size: 100%;
   margin: 0 auto;
   color: #fff;
-  font-family: "Fira Sans Condensed", Arial, sans-serif;
+  font-family: 'Fira Sans Condensed', Arial, sans-serif;
   font-size: 18px;
   background-color: #1b1919;
 }
@@ -102,7 +102,7 @@ video {
 }
 
 .search-form__fieldset-title {
-  font-family: "Fira Sans Condensed", Arial, sans-serif;
+  font-family: 'Fira Sans Condensed', Arial, sans-serif;
   font-weight: 400;
   font-size: 18px;
   padding: 2px 0 5px;
@@ -113,7 +113,7 @@ video {
   align-items: center;
   width: fit-content;
   gap: 8px;
-  font-family: "Fira Sans Condensed", Arial, sans-serif;
+  font-family: 'Fira Sans Condensed', Arial, sans-serif;
   font-weight: 400;
   font-size: 18px;
   cursor: pointer;
@@ -125,7 +125,7 @@ video {
   color: #fff;
   appearance: none;
   width: 225px;
-  font-family: "Fira Sans Condensed", Arial, sans-serif;
+  font-family: 'Fira Sans Condensed', Arial, sans-serif;
   font-size: 18px;
   background: transparent;
   outline: none; /* Убирает контур при фокусе */
@@ -195,7 +195,7 @@ video {
 }
 
 .search-form__label-text {
-  font-family: "Fira Sans Condensed", Arial, sans-serif;
+  font-family: 'Fira Sans Condensed', Arial, sans-serif;
   font-weight: 400;
   font-size: 16px;
   cursor: pointer;
@@ -219,7 +219,7 @@ input[type="checkbox"]:checked + span {
 /* КНОПКА ПОИСКА */
 .button {
   display: flex;
-  font-family: "Fira Sans Condensed", Arial, sans-serif;
+  font-family: 'Fira Sans Condensed', Arial, sans-serif;
   font-weight: 700;
   font-size: 18px;
   text-align: center;
@@ -233,7 +233,7 @@ input[type="checkbox"]:checked + span {
 
 .search-form__submit-button {
   display: flex;
-padding: 5px 73px;
+  padding: 5px 73px;
 }
 
 .button:hover {
@@ -335,7 +335,7 @@ padding: 5px 73px;
   -webkit-line-clamp: 4; /* Ограничение в 4 строки */
   overflow: hidden;
   text-overflow: ellipsis;
-  font-family: "Fira Sans Condensed", Arial, sans-serif;
+  font-family: 'Fira Sans Condensed', Arial, sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 16.2px;
