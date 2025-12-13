@@ -113,6 +113,7 @@ video {
   align-items: center;
   width: fit-content;
   gap: 5px;
+  white-space: nowrap;
   font-family:'Fira Sans Condensed', Arial, sans-serif;
   font-weight: 400;
   font-size: 18px;
@@ -138,19 +139,15 @@ video {
   color: rgb(255 255 255 / 0.7);
 }
 
-.search-form__textfield :focus {
+.search-form__textfield:focus {
   outline: 1px solid transparent;
-  border-top: 1px solid;
-  border-bottom: 1px solid;
-  border-left: 1px solid;
-  border-right: 1px solid;
+  border: 1px solid;
 }
 
-/* Стиль для label при visible focus у input */
+/* Стиль для label при visible focus у input*/
 .search-form__label:has(:focus-visible) {
-  border: 1px solid #ffffff;
-  padding: 0px;
   display: inline-block;
+  border: 1px solid #ffffff;
 }
 
 /* ------Скрытие стандартных настроек--------*/
@@ -171,7 +168,7 @@ video {
   gap: 15px;
   flex-direction: row;
   justify-content: space-between;
-  padding-bottom: 6px;
+  padding-bottom: 3px;
 }
 
 /* НОВЫЕ ЧЕКБОКСЫ */
